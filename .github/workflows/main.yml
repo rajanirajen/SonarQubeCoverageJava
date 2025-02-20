@@ -13,4 +13,7 @@ jobs:
      java-version: '17'
      cache: 'maven'
   - name: Build the code 
-    run: mvn package 
+    run: mvn package
+  - name: Test the code
+    run: mvn test
+    
